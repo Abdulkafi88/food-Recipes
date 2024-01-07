@@ -166,6 +166,7 @@ searchBtn.addEventListener("click", () => {
       popupCloseBtn.addEventListener("click", () => {
         mealPopup.classList.add("hidden");
         mealInfoEl.innerHTML = "";
+	 mealPopup.innerHTML = "";
       });
 
       mealsEl.appendChild(newElDiv);
